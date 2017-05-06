@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+   	android:layout_height="50dp"
+	android:padding="5dp"
+   	android:gravity="center_vertical"
+   	android:orientation="horizontal"
+   	android:background="@drawable/head_bg">
+
+
+
+	<Button
+		android:id="@+id/bt_heander_l"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:text="返回"
+		android:background="#999999"
+		android:onClick="activityFinish"
+		/>
+	<TextView
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:id="@+id/tv_head_title"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		android:text="精准扶贫"/>
+	<Button
+		 android:id="@+id/bt_heander_r"
+		 android:layout_width="wrap_content"
+		 android:layout_height="match_parent"
+		 android:text="新增"
+		 android:background="#999999"
+			 android:onClick="activityXin"
+		 />
+</LinearLayout>

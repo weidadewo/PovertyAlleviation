@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">精准扶贫</string>
+    <string name="img_from_camera">手机拍照</string>
+    <string name="img_from_album">手机相册</string>
+</resources>
